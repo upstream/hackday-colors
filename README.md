@@ -1,7 +1,3 @@
-# Level-Up With Modern CSS Workshop
-
-> Presented by Stephanie Eckles - [@5t3ph](https://twitter.com/5t3ph) - author of [ModernCSS.dev](https://moderncss.dev), [SmolCSS.dev](https://smolcss.dev), and [StyleStage.dev](https://stylestage.dev)
-
 ## Development Scripts
 
 **`npm start`**
