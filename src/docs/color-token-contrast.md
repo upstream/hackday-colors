@@ -4,6 +4,39 @@ title: Color Token Contrast
 
 > The following are contrast safe combinations as calculated for _normal_ text based on WCAG AA 4.5
 
+## color-blue-100
+  - `color-on-blue-100`
+  - `color-on-blue-90`
+  - `color-on-blue-80`
+  - `color-on-blue-70`
+  - `color-blue-60`
+  - `color-blue-50`
+  - `color-blue-40`
+  - `color-blue-30`
+  - `color-blue-20`
+  - `color-blue-10`
+  - `color-blue-4`
+  - `color-on-grey-100`
+  - `color-on-grey-90`
+  - `color-on-grey-80`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-50`
+  - `color-grey-40`
+  - `color-grey-30`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-sun`
+  - `color-mint`
+  - `color-peach`
+  - `color-cream`
+
+## color-on-blue-100
+  - `color-blue-100`
+  - `color-grey-100`
+
 ## color-blue-90
   - `color-on-blue-90`
   - `color-on-blue-80`
@@ -14,9 +47,20 @@ title: Color Token Contrast
   - `color-blue-20`
   - `color-blue-10`
   - `color-blue-4`
+  - `color-on-grey-80`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-40`
+  - `color-grey-30`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
   - `color-sun`
+  - `color-cream`
 
 ## color-on-blue-90
+  - `color-blue-100`
   - `color-blue-90`
   - `color-blue-80`
   - `color-blue-70`
@@ -27,8 +71,22 @@ title: Color Token Contrast
   - `color-on-blue-20`
   - `color-on-blue-10`
   - `color-on-blue-4`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-grey-70`
+  - `color-grey-60`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-grey-10`
+  - `color-on-grey-4`
+  - `color-red-100`
   - `color-on-sun`
   - `color-on-mint`
+  - `color-on-peach`
+  - `color-on-cream`
 
 ## color-blue-80
   - `color-on-blue-90`
@@ -38,28 +96,38 @@ title: Color Token Contrast
   - `color-blue-20`
   - `color-blue-10`
   - `color-blue-4`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
   - `color-sun`
+  - `color-cream`
 
 ## color-on-blue-80
+  - `color-blue-100`
   - `color-blue-90`
   - `color-blue-80`
-  - `color-blue-70`
   - `color-on-blue-60`
   - `color-on-blue-50`
   - `color-on-blue-40`
-  - `color-on-blue-30`
-  - `color-on-blue-20`
-  - `color-on-blue-10`
-  - `color-on-blue-4`
-  - `color-on-sun`
-  - `color-on-mint`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-peach`
 
 ## color-blue-70
   - `color-on-blue-90`
-  - `color-on-blue-80`
   - `color-on-blue-70`
+  - `color-on-grey-60`
+  - `color-on-red-100`
 
 ## color-on-blue-70
+  - `color-blue-100`
   - `color-blue-90`
   - `color-blue-80`
   - `color-blue-70`
@@ -70,11 +138,26 @@ title: Color Token Contrast
   - `color-on-blue-20`
   - `color-on-blue-10`
   - `color-on-blue-4`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-grey-70`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-grey-10`
+  - `color-on-grey-4`
   - `color-on-sun`
   - `color-on-mint`
+  - `color-on-peach`
+  - `color-on-cream`
 
 ## color-blue-60
+  - `color-blue-100`
   - `color-on-blue-60`
+  - `color-grey-100`
+  - `color-on-grey-50`
 
 ## color-on-blue-60
   - `color-on-blue-90`
@@ -87,13 +170,31 @@ title: Color Token Contrast
   - `color-blue-20`
   - `color-blue-10`
   - `color-blue-4`
+  - `color-on-grey-90`
+  - `color-on-grey-80`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-40`
+  - `color-grey-30`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
   - `color-sun`
   - `color-mint`
+  - `color-peach`
+  - `color-cream`
 
 ## color-blue-50
+  - `color-blue-100`
   - `color-blue-90`
   - `color-on-blue-60`
   - `color-on-blue-50`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-peach`
 
 ## color-on-blue-50
   - `color-on-blue-90`
@@ -105,12 +206,29 @@ title: Color Token Contrast
   - `color-blue-20`
   - `color-blue-10`
   - `color-blue-4`
+  - `color-on-grey-80`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-30`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
   - `color-sun`
+  - `color-cream`
 
 ## color-blue-40
+  - `color-blue-100`
   - `color-blue-90`
   - `color-on-blue-60`
   - `color-on-blue-50`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-peach`
 
 ## color-on-blue-40
   - `color-on-blue-90`
@@ -120,27 +238,49 @@ title: Color Token Contrast
   - `color-blue-20`
   - `color-blue-10`
   - `color-blue-4`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
   - `color-sun`
+  - `color-cream`
 
 ## color-blue-30
+  - `color-blue-100`
   - `color-blue-90`
   - `color-blue-80`
   - `color-on-blue-60`
   - `color-on-blue-50`
   - `color-on-blue-40`
   - `color-on-blue-30`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-peach`
 
 ## color-on-blue-30
   - `color-on-blue-90`
-  - `color-on-blue-80`
   - `color-on-blue-70`
   - `color-blue-30`
   - `color-blue-20`
   - `color-blue-10`
   - `color-blue-4`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
   - `color-sun`
+  - `color-cream`
 
 ## color-blue-20
+  - `color-blue-100`
   - `color-blue-90`
   - `color-blue-80`
   - `color-on-blue-60`
@@ -148,17 +288,31 @@ title: Color Token Contrast
   - `color-on-blue-40`
   - `color-on-blue-30`
   - `color-on-blue-20`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-grey-70`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
   - `color-on-sun`
+  - `color-on-peach`
 
 ## color-on-blue-20
   - `color-on-blue-90`
-  - `color-on-blue-80`
   - `color-on-blue-70`
   - `color-blue-20`
   - `color-blue-10`
   - `color-blue-4`
+  - `color-on-grey-60`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-cream`
 
 ## color-blue-10
+  - `color-blue-100`
   - `color-blue-90`
   - `color-blue-80`
   - `color-on-blue-60`
@@ -167,16 +321,30 @@ title: Color Token Contrast
   - `color-on-blue-30`
   - `color-on-blue-20`
   - `color-on-blue-10`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-grey-70`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-grey-10`
   - `color-on-sun`
+  - `color-on-peach`
 
 ## color-on-blue-10
   - `color-on-blue-90`
-  - `color-on-blue-80`
   - `color-on-blue-70`
   - `color-blue-10`
   - `color-blue-4`
+  - `color-on-grey-60`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-cream`
 
 ## color-blue-4
+  - `color-blue-100`
   - `color-blue-90`
   - `color-blue-80`
   - `color-on-blue-60`
@@ -186,36 +354,522 @@ title: Color Token Contrast
   - `color-on-blue-20`
   - `color-on-blue-10`
   - `color-on-blue-4`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-grey-70`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-grey-10`
+  - `color-on-grey-4`
   - `color-on-sun`
   - `color-on-mint`
+  - `color-on-peach`
+  - `color-on-cream`
 
 ## color-on-blue-4
   - `color-on-blue-90`
-  - `color-on-blue-80`
   - `color-on-blue-70`
   - `color-blue-4`
+  - `color-on-grey-60`
+  - `color-on-red-100`
 
-## color-sun
+## color-grey-100
+  - `color-on-blue-100`
+  - `color-on-blue-90`
+  - `color-on-blue-80`
+  - `color-on-blue-70`
+  - `color-blue-60`
+  - `color-blue-50`
+  - `color-blue-40`
+  - `color-blue-30`
+  - `color-blue-20`
+  - `color-blue-10`
+  - `color-blue-4`
+  - `color-on-grey-100`
+  - `color-on-grey-90`
+  - `color-on-grey-80`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-50`
+  - `color-grey-40`
+  - `color-grey-30`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-sun`
+  - `color-mint`
+  - `color-peach`
+  - `color-cream`
+
+## color-on-grey-100
+  - `color-blue-100`
+  - `color-grey-100`
+
+## color-grey-90
+  - `color-on-blue-90`
+  - `color-on-blue-80`
+  - `color-on-blue-70`
+  - `color-blue-50`
+  - `color-blue-40`
+  - `color-blue-30`
+  - `color-blue-20`
+  - `color-blue-10`
+  - `color-blue-4`
+  - `color-on-grey-90`
+  - `color-on-grey-80`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-40`
+  - `color-grey-30`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-sun`
+  - `color-mint`
+  - `color-peach`
+  - `color-cream`
+
+## color-on-grey-90
+  - `color-blue-100`
+  - `color-on-blue-60`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-on-grey-50`
+
+## color-grey-80
+  - `color-on-blue-90`
+  - `color-on-blue-80`
+  - `color-on-blue-70`
+  - `color-blue-40`
+  - `color-blue-30`
+  - `color-blue-20`
+  - `color-blue-10`
+  - `color-blue-4`
+  - `color-on-grey-80`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-30`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-sun`
+  - `color-cream`
+
+## color-on-grey-80
+  - `color-blue-100`
+  - `color-blue-90`
+  - `color-on-blue-60`
+  - `color-on-blue-50`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-peach`
+
+## color-grey-70
+  - `color-on-blue-90`
+  - `color-on-blue-70`
+  - `color-blue-20`
+  - `color-blue-10`
+  - `color-blue-4`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-cream`
+
+## color-on-grey-70
+  - `color-blue-100`
   - `color-blue-90`
   - `color-blue-80`
   - `color-on-blue-60`
   - `color-on-blue-50`
   - `color-on-blue-40`
   - `color-on-blue-30`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-grey-70`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-sun`
+  - `color-on-peach`
+
+## color-grey-60
+  - `color-on-blue-90`
+  - `color-on-grey-60`
+  - `color-on-red-100`
+
+## color-on-grey-60
+  - `color-blue-100`
+  - `color-blue-90`
+  - `color-blue-80`
+  - `color-blue-70`
+  - `color-on-blue-60`
+  - `color-on-blue-50`
+  - `color-on-blue-40`
+  - `color-on-blue-30`
+  - `color-on-blue-20`
+  - `color-on-blue-10`
+  - `color-on-blue-4`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-grey-70`
+  - `color-grey-60`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-grey-10`
+  - `color-on-grey-4`
+  - `color-red-100`
+  - `color-on-sun`
+  - `color-on-mint`
+  - `color-on-peach`
+  - `color-on-cream`
+
+## color-grey-50
+  - `color-blue-100`
+  - `color-grey-100`
+  - `color-on-grey-50`
+
+## color-on-grey-50
+  - `color-on-blue-90`
+  - `color-on-blue-80`
+  - `color-on-blue-70`
+  - `color-blue-60`
+  - `color-blue-50`
+  - `color-blue-40`
+  - `color-blue-30`
+  - `color-blue-20`
+  - `color-blue-10`
+  - `color-blue-4`
+  - `color-on-grey-90`
+  - `color-on-grey-80`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-50`
+  - `color-grey-40`
+  - `color-grey-30`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-sun`
+  - `color-mint`
+  - `color-peach`
+  - `color-cream`
+
+## color-grey-40
+  - `color-blue-100`
+  - `color-blue-90`
+  - `color-on-blue-60`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-peach`
+
+## color-on-grey-40
+  - `color-on-blue-90`
+  - `color-on-blue-80`
+  - `color-on-blue-70`
+  - `color-blue-50`
+  - `color-blue-40`
+  - `color-blue-30`
+  - `color-blue-20`
+  - `color-blue-10`
+  - `color-blue-4`
+  - `color-on-grey-80`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-40`
+  - `color-grey-30`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-sun`
+  - `color-cream`
+
+## color-grey-30
+  - `color-blue-100`
+  - `color-blue-90`
+  - `color-on-blue-60`
+  - `color-on-blue-50`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-peach`
+
+## color-on-grey-30
+  - `color-on-blue-90`
+  - `color-on-blue-80`
+  - `color-on-blue-70`
+  - `color-blue-40`
+  - `color-blue-30`
+  - `color-blue-20`
+  - `color-blue-10`
+  - `color-blue-4`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-30`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-sun`
+  - `color-cream`
+
+## color-grey-20
+  - `color-blue-100`
+  - `color-blue-90`
+  - `color-blue-80`
+  - `color-on-blue-60`
+  - `color-on-blue-50`
+  - `color-on-blue-40`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-peach`
+
+## color-on-grey-20
+  - `color-on-blue-90`
+  - `color-on-blue-70`
+  - `color-blue-30`
+  - `color-blue-20`
+  - `color-blue-10`
+  - `color-blue-4`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-sun`
+  - `color-cream`
+
+## color-grey-10
+  - `color-blue-100`
+  - `color-blue-90`
+  - `color-blue-80`
+  - `color-on-blue-60`
+  - `color-on-blue-50`
+  - `color-on-blue-40`
+  - `color-on-blue-30`
+  - `color-on-blue-20`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-grey-70`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-sun`
+  - `color-on-peach`
+
+## color-on-grey-10
+  - `color-on-blue-90`
+  - `color-on-blue-70`
+  - `color-blue-10`
+  - `color-blue-4`
+  - `color-on-grey-60`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-cream`
+
+## color-grey-4
+  - `color-blue-100`
+  - `color-blue-90`
+  - `color-blue-80`
+  - `color-on-blue-60`
+  - `color-on-blue-50`
+  - `color-on-blue-40`
+  - `color-on-blue-30`
+  - `color-on-blue-20`
+  - `color-on-blue-10`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-grey-70`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-grey-10`
+  - `color-on-grey-4`
+  - `color-on-sun`
+  - `color-on-peach`
+
+## color-on-grey-4
+  - `color-on-blue-90`
+  - `color-on-blue-70`
+  - `color-blue-4`
+  - `color-on-grey-60`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-cream`
+
+## color-red-100
+  - `color-on-blue-90`
+  - `color-on-grey-60`
+  - `color-on-red-100`
+
+## color-on-red-100
+  - `color-blue-100`
+  - `color-blue-90`
+  - `color-blue-80`
+  - `color-blue-70`
+  - `color-on-blue-60`
+  - `color-on-blue-50`
+  - `color-on-blue-40`
+  - `color-on-blue-30`
+  - `color-on-blue-20`
+  - `color-on-blue-10`
+  - `color-on-blue-4`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-grey-70`
+  - `color-grey-60`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-grey-10`
+  - `color-on-grey-4`
+  - `color-red-100`
+  - `color-on-sun`
+  - `color-on-mint`
+  - `color-on-peach`
+  - `color-on-cream`
+
+## color-sun
+  - `color-blue-100`
+  - `color-blue-90`
+  - `color-blue-80`
+  - `color-on-blue-60`
+  - `color-on-blue-50`
+  - `color-on-blue-40`
+  - `color-on-blue-30`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-peach`
 
 ## color-on-sun
   - `color-on-blue-90`
-  - `color-on-blue-80`
   - `color-on-blue-70`
   - `color-blue-20`
   - `color-blue-10`
   - `color-blue-4`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-cream`
 
 ## color-mint
+  - `color-blue-100`
   - `color-on-blue-60`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-on-grey-50`
+  - `color-on-peach`
 
 ## color-on-mint
   - `color-on-blue-90`
-  - `color-on-blue-80`
   - `color-on-blue-70`
   - `color-blue-4`
+  - `color-on-grey-60`
+  - `color-on-red-100`
+  - `color-cream`
+
+## color-peach
+  - `color-blue-100`
+  - `color-on-blue-60`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-on-grey-50`
+  - `color-on-peach`
+
+## color-on-peach
+  - `color-on-blue-90`
+  - `color-on-blue-80`
+  - `color-on-blue-70`
+  - `color-blue-50`
+  - `color-blue-40`
+  - `color-blue-30`
+  - `color-blue-20`
+  - `color-blue-10`
+  - `color-blue-4`
+  - `color-on-grey-80`
+  - `color-on-grey-70`
+  - `color-on-grey-60`
+  - `color-grey-40`
+  - `color-grey-30`
+  - `color-grey-20`
+  - `color-grey-10`
+  - `color-grey-4`
+  - `color-on-red-100`
+  - `color-sun`
+  - `color-mint`
+  - `color-peach`
+  - `color-cream`
+
+## color-cream
+  - `color-blue-100`
+  - `color-blue-90`
+  - `color-blue-80`
+  - `color-on-blue-60`
+  - `color-on-blue-50`
+  - `color-on-blue-40`
+  - `color-on-blue-30`
+  - `color-on-blue-20`
+  - `color-on-blue-10`
+  - `color-grey-100`
+  - `color-grey-90`
+  - `color-grey-80`
+  - `color-grey-70`
+  - `color-on-grey-50`
+  - `color-on-grey-40`
+  - `color-on-grey-30`
+  - `color-on-grey-20`
+  - `color-on-grey-10`
+  - `color-on-grey-4`
+  - `color-on-sun`
+  - `color-on-mint`
+  - `color-on-peach`
+  - `color-on-cream`
+
+## color-on-cream
+  - `color-on-blue-90`
+  - `color-on-blue-70`
+  - `color-blue-4`
+  - `color-on-grey-60`
+  - `color-on-red-100`
+  - `color-cream`
