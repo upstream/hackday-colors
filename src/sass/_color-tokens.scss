@@ -3,12 +3,12 @@
   Modify colors in src/_data/colors.js
  */
 
-$color-primary: hsl(258, 75%, 50%) !default;
+$color-primary: hsl(210, 79%, 35%) !default;
 $color-on-primary: hsl(0, 0%, 100%) !default;
-$color-error: hsl(350, 75%, 50%) !default;
-$color-on-error: hsl(352.5, 100%, 98.4%) !default;
-$color-text: hsl(258, 20%, 30%) !default;
-$color-on-text: hsl(255.79999999999995, 12.8%, 70.8%) !default;
+$color-error: hsl(348, 99%, 45%) !default;
+$color-on-error: hsl(348, 100%, 98%) !default;
+$color-text: hsl(229, 31%, 14%) !default;
+$color-on-text: hsl(228.5, 11.3%, 54.9%) !default;
 
 $base-color-tokens: ("primary", "error", "text");
 
