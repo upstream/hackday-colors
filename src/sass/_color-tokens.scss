@@ -3,41 +3,86 @@
   Modify colors in src/_data/colors.js
  */
 
-$color-blue: #0b3c66 !default;
-$color-on-blue: hsl(0, 0%, 100%) !default;
-$color-secondary: hsl(228, 441%, 93%) !default;
-$color-on-secondary: hsl(228.89999999999998, 23.3%, 45.5%) !default;
+$color-blue-90: hsl(208, 81%, 22%) !default;
+$color-on-blue-90: hsl(0, 0%, 100%) !default;
+$color-blue-80: hsl(210, 79%, 35%) !default;
+$color-on-blue-80: hsl(0, 0%, 100%) !default;
+$color-blue-70: hsl(205, 71%, 43%) !default;
+$color-on-blue-70: hsl(210, 100%, 99.6%) !default;
+$color-blue-60: hsl(208, 50%, 57%) !default;
+$color-on-blue-60: hsl(208.29999999999995, 63.9%, 16.3%) !default;
+$color-blue-50: hsl(208, 51%, 68%) !default;
+$color-on-blue-50: hsl(208.79999999999995, 36.9%, 25.5%) !default;
+$color-blue-40: hsl(211, 49%, 79%) !default;
+$color-on-blue-40: hsl(210, 23.5%, 33.3%) !default;
+$color-blue-30: hsl(209, 53%, 84%) !default;
+$color-on-blue-30: hsl(210, 21.3%, 36.9%) !default;
+$color-blue-20: hsl(210, 50%, 90%) !default;
+$color-on-blue-20: hsl(209, 15%, 40.6%) !default;
+$color-blue-10: hsl(217, 52%, 95%) !default;
+$color-on-blue-10: hsl(219, 8.8%, 44.3%) !default;
+$color-blue-4: hsl(204, 45%, 98%) !default;
+$color-on-blue-4: hsl(210, 3.4%, 45.5%) !default;
+$color-sun: hsl(49, 94%, 58%) !default;
+$color-on-sun: hsl(47.89999999999998, 100%, 22.4%) !default;
 $color-mint: hsl(179, 74%, 39%) !default;
-$color-on-mint: hsl(310.20000000000005, 74.5%, 21.6%) !default;
-$color-error: hsl(348, 99%, 45%) !default;
-$color-on-error: hsl(348, 100%, 98%) !default;
-$color-text: hsl(229, 31%, 14%) !default;
-$color-on-text: hsl(228.5, 11.3%, 54.9%) !default;
+/* 🚫 Contrast fails against mint */
+$color-on-mint: hsl(348, 99%, 45%) !default;
 
-$base-color-tokens: ("blue", "secondary", "mint", "error", "text");
+$base-color-tokens: ("blue-90", "blue-80", "blue-70", "blue-60", "blue-50", "blue-40", "blue-30", "blue-20", "blue-10", "blue-4", "sun", "mint");
 
 $color-tokens: (
-  "color-blue": $color-blue,
-  "color-on-blue": $color-on-blue,
-  "color-secondary": $color-secondary,
-  "color-on-secondary": $color-on-secondary,
+  "color-blue-90": $color-blue-90,
+  "color-on-blue-90": $color-on-blue-90,
+  "color-blue-80": $color-blue-80,
+  "color-on-blue-80": $color-on-blue-80,
+  "color-blue-70": $color-blue-70,
+  "color-on-blue-70": $color-on-blue-70,
+  "color-blue-60": $color-blue-60,
+  "color-on-blue-60": $color-on-blue-60,
+  "color-blue-50": $color-blue-50,
+  "color-on-blue-50": $color-on-blue-50,
+  "color-blue-40": $color-blue-40,
+  "color-on-blue-40": $color-on-blue-40,
+  "color-blue-30": $color-blue-30,
+  "color-on-blue-30": $color-on-blue-30,
+  "color-blue-20": $color-blue-20,
+  "color-on-blue-20": $color-on-blue-20,
+  "color-blue-10": $color-blue-10,
+  "color-on-blue-10": $color-on-blue-10,
+  "color-blue-4": $color-blue-4,
+  "color-on-blue-4": $color-on-blue-4,
+  "color-sun": $color-sun,
+  "color-on-sun": $color-on-sun,
   "color-mint": $color-mint,
-  "color-on-mint": $color-on-mint,
-  "color-error": $color-error,
-  "color-on-error": $color-on-error,
-  "color-text": $color-text,
-  "color-on-text": $color-on-text
+  /* 🚫 Contrast fails against mint */
+"color-on-mint": $color-on-mint
 ) !default;
 
 @mixin color-tokens() {
-  --color-blue: #{$color-blue};
-  --color-on-blue: #{$color-on-blue};
-  --color-secondary: #{$color-secondary};
-  --color-on-secondary: #{$color-on-secondary};
+  --color-blue-90: #{$color-blue-90};
+  --color-on-blue-90: #{$color-on-blue-90};
+  --color-blue-80: #{$color-blue-80};
+  --color-on-blue-80: #{$color-on-blue-80};
+  --color-blue-70: #{$color-blue-70};
+  --color-on-blue-70: #{$color-on-blue-70};
+  --color-blue-60: #{$color-blue-60};
+  --color-on-blue-60: #{$color-on-blue-60};
+  --color-blue-50: #{$color-blue-50};
+  --color-on-blue-50: #{$color-on-blue-50};
+  --color-blue-40: #{$color-blue-40};
+  --color-on-blue-40: #{$color-on-blue-40};
+  --color-blue-30: #{$color-blue-30};
+  --color-on-blue-30: #{$color-on-blue-30};
+  --color-blue-20: #{$color-blue-20};
+  --color-on-blue-20: #{$color-on-blue-20};
+  --color-blue-10: #{$color-blue-10};
+  --color-on-blue-10: #{$color-on-blue-10};
+  --color-blue-4: #{$color-blue-4};
+  --color-on-blue-4: #{$color-on-blue-4};
+  --color-sun: #{$color-sun};
+  --color-on-sun: #{$color-on-sun};
   --color-mint: #{$color-mint};
-  --color-on-mint: #{$color-on-mint};
-  --color-error: #{$color-error};
-  --color-on-error: #{$color-on-error};
-  --color-text: #{$color-text};
-  --color-on-text: #{$color-on-text};
+  /* 🚫 Contrast fails against mint */
+--color-on-mint: #{$color-on-mint};
 }

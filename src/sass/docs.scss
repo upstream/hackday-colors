@@ -6,6 +6,7 @@
   &,
   figcaption {
     display: grid;
+    min-width: 10rem;
     place-content: center;
     padding: .5rem;
     text-align: center;

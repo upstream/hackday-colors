@@ -118,44 +118,177 @@ select {
   Do not change this file directly.
   Modify colors in src/_data/colors.js
  */
+/* 🚫 Contrast fails against mint */
 :root {
-  --color-blue: #0b3c66;
-  --color-on-blue: white;
-  --color-secondary: #dbe2ff;
-  --color-on-secondary: #59638f;
+  --color-blue-90: #0b3b66;
+  --color-on-blue-90: white;
+  --color-blue-80: #1359a0;
+  --color-on-blue-80: white;
+  --color-blue-70: #207bbc;
+  --color-on-blue-70: #fdfeff;
+  --color-blue-60: #5b95c8;
+  --color-on-blue-60: #0f2b44;
+  --color-blue-50: #84b0d7;
+  --color-on-blue-50: #294259;
+  --color-blue-40: #afc9e4;
+  --color-on-blue-40: #415569;
+  --color-blue-30: #c1d7ec;
+  --color-on-blue-30: #4a5e72;
+  --color-blue-20: #d9e6f2;
+  --color-on-blue-20: #586877;
+  --color-blue-10: #ecf1f9;
+  --color-on-blue-10: #676e7b;
+  --color-blue-4: #f8fafc;
+  --color-on-blue-4: #707478;
+  --color-sun: #f9d42f;
+  --color-on-sun: #725b00;
   --color-mint: #1aadab;
-  --color-on-mint: #600e52;
-  --color-error: #e4012f;
-  --color-on-error: #fff5f7;
-  --color-text: #191d2f;
-  --color-on-text: #7f8499;
+  /* 🚫 Contrast fails against mint */
+  --color-on-mint: #e4012f;
   --color-background: #ecf1f9;
 }
 
-.background-blue {
-  background-color: var(--color-blue);
-  color: var(--color-on-blue);
+.background-blue-90 {
+  background-color: var(--color-blue-90);
+  color: var(--color-on-blue-90);
 }
 
-.color-blue {
-  color: var(--color-blue);
+.color-blue-90 {
+  color: var(--color-blue-90);
 }
 
-.color-on-blue {
-  color: var(--color-on-blue);
+.color-on-blue-90 {
+  color: var(--color-on-blue-90);
 }
 
-.background-secondary {
-  background-color: var(--color-secondary);
-  color: var(--color-on-secondary);
+.background-blue-80 {
+  background-color: var(--color-blue-80);
+  color: var(--color-on-blue-80);
 }
 
-.color-secondary {
-  color: var(--color-secondary);
+.color-blue-80 {
+  color: var(--color-blue-80);
 }
 
-.color-on-secondary {
-  color: var(--color-on-secondary);
+.color-on-blue-80 {
+  color: var(--color-on-blue-80);
+}
+
+.background-blue-70 {
+  background-color: var(--color-blue-70);
+  color: var(--color-on-blue-70);
+}
+
+.color-blue-70 {
+  color: var(--color-blue-70);
+}
+
+.color-on-blue-70 {
+  color: var(--color-on-blue-70);
+}
+
+.background-blue-60 {
+  background-color: var(--color-blue-60);
+  color: var(--color-on-blue-60);
+}
+
+.color-blue-60 {
+  color: var(--color-blue-60);
+}
+
+.color-on-blue-60 {
+  color: var(--color-on-blue-60);
+}
+
+.background-blue-50 {
+  background-color: var(--color-blue-50);
+  color: var(--color-on-blue-50);
+}
+
+.color-blue-50 {
+  color: var(--color-blue-50);
+}
+
+.color-on-blue-50 {
+  color: var(--color-on-blue-50);
+}
+
+.background-blue-40 {
+  background-color: var(--color-blue-40);
+  color: var(--color-on-blue-40);
+}
+
+.color-blue-40 {
+  color: var(--color-blue-40);
+}
+
+.color-on-blue-40 {
+  color: var(--color-on-blue-40);
+}
+
+.background-blue-30 {
+  background-color: var(--color-blue-30);
+  color: var(--color-on-blue-30);
+}
+
+.color-blue-30 {
+  color: var(--color-blue-30);
+}
+
+.color-on-blue-30 {
+  color: var(--color-on-blue-30);
+}
+
+.background-blue-20 {
+  background-color: var(--color-blue-20);
+  color: var(--color-on-blue-20);
+}
+
+.color-blue-20 {
+  color: var(--color-blue-20);
+}
+
+.color-on-blue-20 {
+  color: var(--color-on-blue-20);
+}
+
+.background-blue-10 {
+  background-color: var(--color-blue-10);
+  color: var(--color-on-blue-10);
+}
+
+.color-blue-10 {
+  color: var(--color-blue-10);
+}
+
+.color-on-blue-10 {
+  color: var(--color-on-blue-10);
+}
+
+.background-blue-4 {
+  background-color: var(--color-blue-4);
+  color: var(--color-on-blue-4);
+}
+
+.color-blue-4 {
+  color: var(--color-blue-4);
+}
+
+.color-on-blue-4 {
+  color: var(--color-on-blue-4);
+}
+
+.background-sun {
+  background-color: var(--color-sun);
+  color: var(--color-on-sun);
+}
+
+.color-sun {
+  color: var(--color-sun);
+}
+
+.color-on-sun {
+  color: var(--color-on-sun);
 }
 
 .background-mint {
@@ -169,32 +302,6 @@ select {
 
 .color-on-mint {
   color: var(--color-on-mint);
-}
-
-.background-error {
-  background-color: var(--color-error);
-  color: var(--color-on-error);
-}
-
-.color-error {
-  color: var(--color-error);
-}
-
-.color-on-error {
-  color: var(--color-on-error);
-}
-
-.background-text {
-  background-color: var(--color-text);
-  color: var(--color-on-text);
-}
-
-.color-text {
-  color: var(--color-text);
-}
-
-.color-on-text {
-  color: var(--color-on-text);
 }
 
 .container {
