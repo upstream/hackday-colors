@@ -3,5 +3,5 @@
 :root {
   @include color-tokens();
 
-  --color-background: #{mix(white, $color-primary, 98%)}; 
+  --color-background: #{mix(rgb(255, 255, 255), $color-primary, 98%)}; 
 }

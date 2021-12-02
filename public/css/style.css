@@ -118,9 +118,15 @@ select {
   Do not change this file directly.
   Modify colors in src/_data/colors.js
  */
+/* 🚫 Contrast fails against mint */
 :root {
   --color-primary: #1359a0;
   --color-on-primary: white;
+  --color-secondary: #dbe2ff;
+  --color-on-secondary: #59638f;
+  --color-mint: #1aadab;
+  /* 🚫 Contrast fails against mint */
+  --color-on-mint: white;
   --color-error: #e4012f;
   --color-on-error: #fff5f7;
   --color-text: #191d2f;
@@ -139,6 +145,32 @@ select {
 
 .color-on-primary {
   color: var(--color-on-primary);
+}
+
+.background-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-on-secondary);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.color-on-secondary {
+  color: var(--color-on-secondary);
+}
+
+.background-mint {
+  background-color: var(--color-mint);
+  color: var(--color-on-mint);
+}
+
+.color-mint {
+  color: var(--color-mint);
+}
+
+.color-on-mint {
+  color: var(--color-on-mint);
 }
 
 .background-error {
@@ -170,6 +202,7 @@ select {
 .container {
   width: 80ch;
   max-width: 95vw;
+  margin-top: 3rem;
   margin-right: auto;
   margin-left: auto;
 }

@@ -5,16 +5,26 @@
 
 $color-primary: hsl(210, 79%, 35%) !default;
 $color-on-primary: hsl(0, 0%, 100%) !default;
+$color-secondary: hsl(228, 441%, 93%) !default;
+$color-on-secondary: hsl(228.89999999999998, 23.3%, 45.5%) !default;
+$color-mint: hsl(179, 74%, 39%) !default;
+/* 🚫 Contrast fails against mint */
+$color-on-mint: hsl(0, 0%, 100%) !default;
 $color-error: hsl(348, 99%, 45%) !default;
 $color-on-error: hsl(348, 100%, 98%) !default;
 $color-text: hsl(229, 31%, 14%) !default;
 $color-on-text: hsl(228.5, 11.3%, 54.9%) !default;
 
-$base-color-tokens: ("primary", "error", "text");
+$base-color-tokens: ("primary", "secondary", "mint", "error", "text");
 
 $color-tokens: (
   "color-primary": $color-primary,
   "color-on-primary": $color-on-primary,
+  "color-secondary": $color-secondary,
+  "color-on-secondary": $color-on-secondary,
+  "color-mint": $color-mint,
+  /* 🚫 Contrast fails against mint */
+"color-on-mint": $color-on-mint,
   "color-error": $color-error,
   "color-on-error": $color-on-error,
   "color-text": $color-text,
@@ -24,6 +34,11 @@ $color-tokens: (
 @mixin color-tokens() {
   --color-primary: #{$color-primary};
   --color-on-primary: #{$color-on-primary};
+  --color-secondary: #{$color-secondary};
+  --color-on-secondary: #{$color-on-secondary};
+  --color-mint: #{$color-mint};
+  /* 🚫 Contrast fails against mint */
+--color-on-mint: #{$color-on-mint};
   --color-error: #{$color-error};
   --color-on-error: #{$color-on-error};
   --color-text: #{$color-text};
