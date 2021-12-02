@@ -1,0 +1,7 @@
+@use "./color-tokens" as *;
+
+:root {
+  @include color-tokens();
+
+  --color-background: #{mix(white, $color-primary, 98%)}; 
+}
